@@ -46,7 +46,7 @@ button.addEventListener('click', function (){
         const cell = generateCell(i + 1)
         
         cell.addEventListener('click', function(){
-            cell.classList.toggle('clicked')
+            cell.classList.add('clicked')
             console.log(i + 1)
         })
 
