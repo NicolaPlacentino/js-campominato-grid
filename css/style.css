@@ -37,12 +37,20 @@ main{
     width: 10%;
     height: 10%;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
     border: 1px solid white;
     background-color: dodgerblue;
+
+    cursor: pointer;
 }
 
 #grid .cell.clicked{
     background-color:aquamarine;
+    color: black;
 }
 
 /* utils */
